@@ -1,0 +1,8 @@
+[29-Jan-2025 10:55:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/rsof08.rehan.school/public_html/CNN/login.php:22) in /home/customer/www/rsof08.rehan.school/public_html/CNN/login.php on line 54
+[30-Jan-2025 10:14:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/customer/www/rsof08.rehan.school/public_html/CNN/article.php:6
+Stack trace:
+#0 /home/customer/www/rsof08.rehan.school/public_html/CNN/article.php(6): mysqli->query('SELECT * FROM a...')
+#1 {main}
+  thrown in /home/customer/www/rsof08.rehan.school/public_html/CNN/article.php on line 6
+[30-Jan-2025 10:28:50 UTC] PHP Warning:  move_uploaded_file(uploads/a3f2b5f7-1142-4b7b-b5c7-5c9aa2aa3b51.webp): Failed to open stream: No such file or directory in /home/customer/www/rsof08.rehan.school/public_html/CNN/add_article.php on line 26
+[30-Jan-2025 10:28:50 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpt6qF5R&quot; to &quot;uploads/a3f2b5f7-1142-4b7b-b5c7-5c9aa2aa3b51.webp&quot; in /home/customer/www/rsof08.rehan.school/public_html/CNN/add_article.php on line 26
